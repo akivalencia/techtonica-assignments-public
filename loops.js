@@ -179,13 +179,15 @@ inside 1
 ***********************************
 */
 
-// for (let outsideCounter = 0; outsideCounter <= 3 /*???*/; ) {
-//   console.log("counting down from", outsideCounter);
-//   for (let insideCounter = outsideCounter /*???*/ /*???*/; ; ) {
-//     console.log("inside" /*???*/);
-//   }
+for (let outsideCounter = 0; outsideCounter <= 3; outsideCounter++) {
+  console.log("counting down from", outsideCounter);
+
+    for (let insideCounter = outsideCounter ; insideCounter >= 1; insideCounter-- ) {
+    console.log("inside" + insideCounter);
+  }
 //   console.log("***********************************");
-// }
+ }
+
 
 //references:
 
