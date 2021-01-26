@@ -87,6 +87,8 @@ function eleven(array){
 
 eleven(arr);
 
+
+//gotaa do the data structures sections for me to able to finish this 
 // Exercise 12. Make an object called me that contains the following keys: name favoriteAnimal, favoriteNumber
 // The values of those keys can be whatever you choose.
 
