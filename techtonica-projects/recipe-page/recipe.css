@@ -1,16 +1,16 @@
 
-
 p {
     color: blue;
     width: 600px;
   }
 
 div {
-    background: #8E2E1A ;
+    background:pink ;
   }
-head {
-  font-family: 'Abril Fatface', cursive;
-}
-img {
+div.left{
     width: 600px;
 }
+
+
+
+
