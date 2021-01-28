@@ -1,15 +1,10 @@
 
-p {
-    color: blue;
-    width: 600px;
-  }
 
 div {
     background:pink ;
+    padding: 30px;
   }
-div.left{
-    width: 600px;
-}
+
 
 
 
