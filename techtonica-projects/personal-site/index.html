@@ -11,15 +11,15 @@
 
     <title> Adilene's Site </title>
 </head>
-<body>
-    <h1> Adilene's Site</h1>
+<body class= "background">
+    <h1 class= "leftt"> 🌸Adilene's Site 🌸</h1>
     <!--adding the nav bar-->
-    <nav>
-        <ul>
-            <li> Projects </li>
-            <li> Bio </li>
-            <li> Dev Resources</li>
-            <li> Contact </li>
+    <nav class= "navbar navbar-light bg-light">
+        <ul class= "navbar-nav">
+            <li class="nav-item"> <a href=# class= "nav-link"> Projects </a> </li>
+            <li class="nav-item"> <a href=# class= "nav-link"> Bio </a> </li>
+            <li class="nav-item"> <a href=# class= "nav-link"> Dev Resources</a> </li>
+            <li class="nav-item"> <a href=# class= "nav-link"> Contact </a> </li>
         </ul>
 
     </nav>
@@ -27,16 +27,16 @@
     <!--projects-->
     <div>
         <!--links to spectra and techtogether seattle -->
-        <h4> Projects </h4>
+        <h4 class= "center"> Projects </h4>
         <!--four boxes of images lol and links! -->
         
     </div>
 
 
     <!--bio -->
-    <div>
-    <h4> About Adilene </h4>
-        <img src= "images/AdiValenciaProPic.jpg">
+    <div class="card">
+    <h4 class= "center"> About Adilene </h4>
+        <img class ="resize" src= "images/AdiValenciaProPic.jpg">
         <p> Adilene is a first-generation student and a recent graduate of Williams College. She is currently a software engineer apprentice at Techtonica.
             She loves languages (natural and programming alike)! In her free time, she enjoys flower arrangement, interior design, and weight training. Her dream is to become a role model to other children and young adults who come from low-income/BIPOC and immigrant backgrounds. Another of her goals is to learn sign language in order to make more friends! 
         </p>
@@ -46,9 +46,9 @@
 
 
     <!--dev resources-->
-    <div>
-        <h4> Dev resources</h4>
-            <div>
+    <div class= "resources">
+        <h4 class="center"> Dev resources</h4>
+            <div class = "left">
                 <h6>courses</h6>
                 <ul>
                     <li> <a href= "https://www.edx.org/course/cs50s-introduction-to-computer-science">CS50 (Harvard)</a> </li>
@@ -57,7 +57,7 @@
                     <li> <a href= "https://www.theodinproject.com/paths">Odin Project </a> </li>
                 </ul>
             </div>
-            <div>
+            <div class= "right">
                 <h6>Youtubers</h6>
                 <ul>
                     <li> <a href="https://www.youtube.com/channel/UC-bFgwL_kFKLZA60AiB-CCQ">The Come Up </a> </li>
@@ -74,7 +74,11 @@
     </div>
 
     <!--adding "top" button-->
-    
+
+
+    <!--added the boostrap jquery CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </body>
 
 </html>
