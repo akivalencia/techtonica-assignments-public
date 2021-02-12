@@ -29,16 +29,16 @@
 }
 
 .right {
-    float: right;
     width: auto;
-    border: 3px solid #73AD21;
+    border: 3px solid #aee1e1;
     padding: 10px;
+    margin-right: 10%;
   }
   .left {
-    float: left;
     width: auto;
-    border: 3px solid #73AD21;
+    border: 3px solid #aee1e1;
     padding: 10px;
+    margin-right: 10%;
   }
 
   .center {
